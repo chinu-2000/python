@@ -32,4 +32,27 @@ def merge(customList , l , m , r):
   i =0 # initial index of first subarray
   j =0 # initial index of second subarray
   k =l  # initial index of merged subarray
-  
+  # *here we will merge these two arrays 
+  while i< n1 and j< n2 :
+    # here we put this condition here cause when we merge them
+    #  we want to do that in sorted order
+    if L[i] <=R[j] :
+      customList[k] = L[i]
+      i = i+1
+    else :
+      customList[k] = R[j]
+      j = j+1
+    k = k+1
+    # * this loop is for copying elements of L if there are any
+    while i< n1:
+      customList[k] = L[i]
+      i = i + 1
+      k = k + 1
+    # * this loop is for copying elements of R if there are any
+    while j < n1:
+      customList[k] = R[i]
+      j = j + 1
+      k = k + 1
+
+def 
+
