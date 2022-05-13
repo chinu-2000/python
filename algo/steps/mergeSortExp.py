@@ -71,4 +71,4 @@ def mergeSort(customList, l , r):
 
 
 cList = [2,1,7,6,5,3,4,9,8]
-print(mergeSort(cList ,0 ,5))
+print(mergeSort(cList ,0 ,8))
