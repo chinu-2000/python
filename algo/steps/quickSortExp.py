@@ -12,6 +12,7 @@ When to avoid Quick Sort :
 -> When Space is a concern
 -> When you need stable sort
 """
+# *fastest
 # *partition function : O(n) Time Complexity
 # *Time Complexity QuickSort : O(nLogN)
 # *Space Complexity : O(n) cause we are calling quickSort recursively
