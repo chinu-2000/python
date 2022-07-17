@@ -5,12 +5,12 @@
 class Node:
   def __init__(self,data):
     self.data = data
-    self.next = None ; 
+    self.next = None  
 
 class LinkedList:
   
   def __init__(self):
-    self.start = None;
+    self.start = None
   
   # value : data to be inserted
   def insertLast(self, value):
@@ -20,7 +20,7 @@ class LinkedList:
     newNode =  Node(value) # for referring to this we create variable : newNode
     
     if(self.start == None): # Linked List is empty
-      self.start = newNode ;
+      self.start = newNode 
     else:
       # variable for traversing
       temp  =self.start # now temp points to firstNode
@@ -58,7 +58,3 @@ myList.viewList()
 print()
 myList.deleteFirst()
 myList.viewList()
-
-
-
-
